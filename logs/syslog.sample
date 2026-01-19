@@ -1,1 +1,11 @@
-
+Jan 19 11:55:32 ubuntu systemd[1]: Started Session 1 of user user1.
+Jan 19 11:57:45 ubuntu CRON[2345]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jan 19 11:59:12 ubuntu kernel: [    0.000000] Initializing cgroup subsys cpuset
+Jan 19 12:00:01 ubuntu sshd[1234]: Failed password for root from 192.168.1.10 port 54321 ssh2
+Jan 19 12:01:05 ubuntu sshd[1235]: Accepted password for user1 from 192.168.1.20 port 54322 ssh2
+Jan 19 12:05:18 ubuntu systemd[1]: Stopping User Manager for UID 1001
+Jan 19 12:07:42 ubuntu systemd[1]: Started User Manager for UID 1002
+Jan 19 12:10:55 ubuntu sshd[1236]: Failed password for user2 from 192.168.1.11 port 54323 ssh2
+Jan 19 12:12:00 ubuntu systemd[1]: Started Session 2 of user user2.
+Jan 19 12:15:00 ubuntu CRON[2346]: (root) CMD (   cd / && run-parts --report /etc/cron.daily)
+Jan 19 12:17:25 ubuntu kernel: [    0.123456] CPU0: Core temperature above threshold, cpu clock throttled
